@@ -1,0 +1,304 @@
+Maybe based on Nicky’s case coming-out-simulator-2014
+Nicky Case’s advice: 
+1. Show what made you care, not why you care
+2. Show then tell
+3. Therefore & But, not And then
+4. Write a draft, then cut it 10%
+5. Do real tests, early & often
+    Prioritize actual learning over the feeling of learning
+
+###########################
+Design Guide
+############################
+Background: Vertical W:360x H:600
+Drawings: 360x520
+
+
+Animal facts:
+Alpacas are very social creatures
+Alpacas will spit if they’re offended
+
+
+############################
+Overall Notes
+############################
+3 options of prescriptive, hybrid, and elicitive
+
+(A)lpaca is the automatic script
+(a)lpaca is the player who can make choices
+
+############################
+SCRIPT
+############################
+
+#### Chapter 1: Introduction ####
+
+Scene 1: 
+    A field with the Alpaca
+
+    (N)arrator: In a faraway land reside many animal groups with their own distinctive cultures. 
+            They all find ways to share the resources available to them. 
+            However, conflict arises from time to time, threating the harmonious existence of the species. 
+
+        Welcome to the cross-cultural adaptivity interactive game, where you are Alpaca - our conflict resolution expert.
+
+        Your main goal is to work with other animals on how to resolve their conflicts. 
+
+        Throughout the game, you will be able to choose to use your expertise or to learn from the animals directly involved. 
+
+        Your choices will directly affect the outcomes of the game. 
+
+        Disclaimer: this is a work of fiction, so any actions from this game is not a reflection of how animals might react in the real world. 
+
+    Button: Let's begin!
+(/N)
+
+### Chapter 2: The Prescriptive/ Elicitive Approach ###
+
+Scene 2.1: 
+    (A)lpaca is standing in an open field on the left
+    A (b)ird approaches from the right
+
+    (b): I finally found you! I need your help...
+    (A): You're safe now... Slow down... Explain to me what happened?
+    (b): A cat is destroying my home RIGHT NOW! They're also threatening to eat me if I don't leave. Please help...
+    (a)lpaca: Options: 
+        1. Oh no! Let's go right away 
+        2. Wait, what led to this?
+
+        if choose 1/ intervene, switch to Scene 2.2.1
+        if choose 2/ ask more
+            (b): so I love singing, cause y'know, I have a beautiful voice. 
+                 Recently, cat has been complaining about my singing and demanding me to stop. But how can I?? 
+                 It's for my survival as I need to woo other birds, start a family, and settle down. 
+                 It's outrageous really...blah blah blah
+            (A): I see... Should we go?
+            (b): Oh, right! I hope nothing bad happened while I was gone...
+        Switch to Scene 2.2.2
+
+Scene 2.2.1: 
+    (A)lpaca and (b)ird come from the left
+    (c)at on the right with the birds nest on the ground
+
+        (A): Stop!! Please don't destroy the nest
+        (b): Phew! My home is still intact.
+        (c): Who are you?
+        (A): I'm Alpaca, and I'm a conflict resolution expert. I'm here to help you two figure out a way to live together!
+        (c): Erhm... why should I? 
+        (a)lpaca: Options:
+            1. Cause violence is wrong!
+            2. Cause you gain more benefit in the long run!
+
+            If choose option 1/ prescriptive
+                (c): *roll eyes* Don't tell me what's right and wrong.
+                (A): Well, the nest is still intact, so thats good!
+                (c): blah blah blah.. you're lameeee
+                (a): Options:
+                    1. (Urgh this cat is hopeless) Bird, can you demonstrate good will first?
+                    2. I understand your frustration. Can you tell me your side of the story?
+
+                    if choose 1. 
+                        bird_dead: Bird flies over, cat looks at bird, cat eats bird. 
+                        (c): Oops I guess I was hungry, chapter2_debrief.
+                    if choose 2.
+                        (c): Well.. bird's singing has been scaring away all of my preys lately. I haven't eaten for days and I'm hungry.
+                            When I complain, bird just ignored me and continue singing. It's frustrating and I'm HANGRY. 
+                        (A): Bird, is this true?
+                        (b): Well, I can't stop singing. Besides the fact that my voice is BEAUTIFUL, 
+                            it's also for my survival as I need to woo other birds, start a family, and settle down.
+                        (a): Options: 
+                            1. Well, I think bird should give their hunts to cat once in a while.
+                            2. Well, I think cat should just move their home.
+                            3. Have there been instances where you both benefitted from having the other around?
+
+                            if choose 1: 
+                                (b): What?!?! That's not fair. Cat is NOT my landlord?
+                                bird_dead: Bird flies over in anger, cat looks at bird, cat eats bird. 
+                                (c): Bird talked too much; chapter2_debrief
+                            if choose 2: 
+                                (c): What?!?! I knew this was rigged against me! 
+                                nest_destroy: cat destroyed bird's nest in anger.
+                                (c): I guess we both have to move now, chapter2_debrief.
+                            if choose 3: 
+                                (c): Well... bird once saved my life by warning me of a snake that was approaching
+                                (b): that was a scary time for us... and cat let me snuggled in their fur last winter because it was too cold 
+                                (c): oh yea.. that was nice..
+                                (A): It seems like you both appreciate living close to each other. How about we all find a solution together?
+                                (b): How about I only sing during office hours, Monday to Friday, 9 - 5 p.m.
+                                (c): Hmmm good idea! That is when no one's around, so I can still hunt early in the morning and late at night.
+                                (b): Can I... still come cuddle during the winter?
+                                (c): Yes, I would love that!
+                                happy-cat-bird: cat and bird hug, chapter2_debrief. 
+            If choose option 2/ elicitive
+                (c): How so?
+                (b): Hey! I once warned you about a snake approaching! I saved your life you ungrateful &$%$%
+                (A): Let's refrain from using such language, bird. 
+                (a): Options:
+                    1. How do you feel about this, cat?
+                    2. Cat, is this how you repay your savior?!
+
+                    if choose 1
+                        (c): ...that's true... Well I did pay you back by letting you snuggle in your fur last winter when it was too cold... 
+                        (b): ... yeah.. that was nice...
+                        (A): It seems like you both did some things for each other. 
+                        (a): Options: 
+                            1. Well, I think bird should give their hunts to cat once in a while.
+                            2. Well, I think cat should just move their home.
+                            3. How about we all find a solution together?
+
+                            if choose 1: 
+                                (b): What?!?! That's not fair. Cat is NOT my landlord?
+                                bird_dead: Bird flies over in anger, cat looks at bird, cat eats bird. 
+                                (c): Bird talked too much, chapter2_debrief.
+                            if choose 2: 
+                                (c): What?!?! I knew this was rigged against me! 
+                                nest_destroy: cat destroyed bird's nest in anger.
+                                (c): I guess we both have to move now, chapter2_debrief.
+                            if choose 3: 
+                                (c): Well... I hunt early in the morning and late in the evening.
+                                (b): How about I only sing during office hours, Monday to Friday, 9 - 5 p.m.
+                                (c): Hmmm good idea! No prey is around that time anyways!
+                                (b): Can I... still come cuddle during the winter?
+                                (c): Yes, I would love that!
+                                happy-cat-bird: cat and bird hug, chapter2_debrief. 
+                    if choose 2
+                                (c): Wow?!?! I knew you were biased against me!
+                                nest_destroy: cat destroyed bird's nest in anger.
+                                (b): My home!!!!
+                                (c): Nice try ganging up on me, chapter2_debrief.   
+Scene 2.2.2
+    (A)lpaca and (b)ird come from the left
+    (c)at on the right with the *destroyed* nest
+    
+    (b): Oh no! My home... 
+    (c): I warned you... You took too long...
+    (b): urgh, you should have come with me right away, Alpaca. 
+    (c): And who are YOU?
+    (A): I'm Alpaca, and I'm a conflict resolution expert. I'm here to help you two figure out a way to live together!
+    (c): Erhm... why should I? 
+    (a)lpaca: Options:
+            1. Cause you destroyed bird's home!
+            2. Cause you gain more benefit in the long run!
+
+            If choose option 1/ idealistic
+                (c): Well bird took too long.
+                (A): That doesn't mean you get to destroy their home!
+                (b): That's true you *&^*&&
+                (A): Bird, language!
+                (b): Shut up, Alpaca. You didn't lose your home so of course you're not emotional.
+                (c): So what? 
+                (a): Options:
+                    1. (Urgh this cat is hopeless) Bird, you're in the right here. You have nothing to fear.
+                    2. Cat, I understand your frustration. Can you tell me your side of the story?
+
+                    if choose 1. 
+                        bird_dead: Bird flies over, cat looks at bird, cat eats bird. 
+                        (c): It's nice and quiet now, chapter2_debrief.
+                    if choose 2.
+                        (c): Well.. bird's singing has been scaring away all of my preys lately. I haven't eaten for days and I'm hungry.
+                            When I complain, bird just ignored me and continue singing. It's frustrating and I'm HANGRY. 
+                        (A): Bird, is this true?
+                        (b): Well, I can't stop singing. Besides the fact that my voice is BEAUTIFUL, 
+                            it's also for my survival as I need to woo other birds, start a family, and settle down. 
+                            But now my home is DESTROYED!!!
+                        (a): Options: 
+                            1. Well, bird, can you give your hunts to cat once in a while.
+                            2. Well, cat should rebuild bird's home.
+                            3. Have there been instances where you both benefitted from having the other around?
+
+                            if choose 1: 
+                                (b): What?!?! That's not fair. I lost my home and now my resources? 
+                                What is this?? Colonialism???
+                                bird_dead: Bird flies over in anger, cat looks at bird, cat eats bird. 
+                                (c): Finally it's quiet now, chapter2_debrief.
+                            if choose 2: 
+                                (c): What?!?! I knew this was rigged against me! 
+                                (b): Hey its only fair!
+                                (c): But wait, that doesn't solve our main problem at all?!
+                                (b): Yeah this is such a short-term solution!
+                                (c): Thanks for nothing, Alpaca, (bird and cat leaves alpaca) chapter2_debrief.
+                            if choose 3: 
+                                (c): Well... bird once saved my life by warning me of a snake that was approaching
+                                (b): that was a scary time for us... and cat let me snuggled in their fur last winter because it was too cold 
+                                (c): oh yea.. that was nice..
+                                (A): It seems like you both appreciate living close to each other. How about we all find a solution together?
+                                (b): How about I only sing during office hours, Monday to Friday, 9 - 5 p.m.
+                                (c): Hmmm good idea! That is when no one's around, so I can still hunt early in the morning and late at night.
+                                (A): Sounds like a plan! 
+                                (b): You destroyed my home, cat, so I will never forgive you. But I guess we can co-exist.
+                                (c): Alright...
+                                agree-cat-bird: cat and bird stare, chapter2_debrief. 
+            
+             If choose option 2/ pracmatic
+                (c): How so?
+                (b): Hey! I once warned you about a snake approaching! I saved your life you ungrateful &$%$%
+                (A): Bird, language. 
+                (b): Shut up, Alpaca. You didn't lose your home so of course you're not emotional.
+                (A): Fair point...
+                (a): Options:
+                    1. How do you feel about this, cat?
+                    2. Cat, is this how you repay your savior?!
+
+                    if choose 1
+                        (c): ...that's true... Well I did pay you back by letting you snuggle in your fur last winter when it was too cold... 
+                        (b): ... yeah.. that was nice...
+                        (A): It seems like you both did some things for each other. 
+                        (a): Options: 
+                            1. Well, I think bird should give their hunts to cat once in a while.
+                            2. Well, cat should rebuild bird's home.
+                            3. How about we all find a solution together?
+
+                            if choose 1: 
+                                (b): What?!?! That's not fair. I lost my home and now my resources? 
+                                What is this?? Colonialism???
+                                bird_dead: Bird flies over in anger, cat looks at bird, cat eats bird. 
+                                (c): Finally it's quiet now, chapter2_debrief.
+                            if choose 2: 
+                                (c): Well I guess I was too hasty...
+                                (b): But wait, that doesn't solve our main problem at all?!
+                                (c): Yeah this is such a short-term solution!
+                                (b): Thanks for nothing, Alpaca, (bird and cat leaves alpaca) chapter2_debrief.
+                            if choose 3: 
+                                (c): Well... I hunt early in the morning and late in the evening.
+                                (b): How about I only sing during office hours, Monday to Friday, 9 - 5 p.m.
+                                (c): Hmmm good idea! No prey is around that time anyways!
+                                (A): Sounds like a plan! 
+                                (b): You destroyed my home, cat, so I will never forgive you. But I guess we can co-exist.
+                                (c): Alright...
+                                agree-cat-bird: cat and bird stare with broken nest, chapter2_debrief. 
+                    if choose 2
+                                (c): Wow?!?! I knew you were biased against me! Why should I waste time talking to you?
+                                (b): Wow are you planning to run away?!?!
+                                bird_dead: Bird flies over in anger, cat looks at bird, cat eats bird.
+                                (c): Nice try ganging up on me, chapter2_debrief.   
+
+
+#####Chapter 2 Debrief: 
+Then queuing Lederach stuff on top down and bottom up conflict; 
+    prescriptive is better when efficiency/ urgent/ low resources; 
+    elicitive is for sustainability/ long-term
+players were given options on prescriptive/ elicitive; no good universally good options
+
+Debriefs based on endings:
+    bird_dead: 
+
+
+Option: replay chapter
+
+
+
+
+
+Chapter 3: cross-cultural fit
+Meet another alpaca
+Options to do bottom-up/ top-down
+Bottom-up, get annoyed at
+Top-down help resolve
+
+When it 
+
+Meet another animal
+Therefore: Greet
+But Did something weird because all animals have different ways of being. 
+
+How would you do this again (give another option)
