@@ -26,24 +26,24 @@ window.addEventListener('mousemove',
 class Light {
     constructor(directionX, directionY) {
         this.image = new Image();
-        this.image.src = 'sprite/bulb.png';
+        this.image.src = 'sprite/grey.png';
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
         this.directionX = directionX;
         this.directionY = directionY;
         this.speed = Math.random() * 4 - 2;
-        this.spriteWidth = 302;
-        this.spriteHeight = 300;
-        this.width = this.spriteWidth/3;
-        this.height = this.spriteHeight/3;
+        this.spriteWidth = 153;
+        this.spriteHeight = 153;
+        this.width = this.spriteWidth/2;
+        this.height = this.spriteHeight/2;
         this.frame = 0;
         this.blinkSpeed = Math.floor(Math.random()*50+1);
     }
-    // draw lightbulb
+    // draw peep
     draw(){
         ctx.drawImage(this.image, this.frame*this.spriteWidth, 0, this.spriteWidth, this.spriteHeight, this.x, this.y, this.width, this.height);
     }
-    // check light position, check mouse position, move
+    // check peep position, check mouse position, move
     update() {
         // animate sprites
         if (gameFrame % this.blinkSpeed === 0) {
